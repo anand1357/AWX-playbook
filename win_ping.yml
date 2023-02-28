@@ -1,5 +1,4 @@
 - hosts: web server
-  gather_facts: true
   tasks:
     - name: Example from an Ansible Playbook
       win_ping:
