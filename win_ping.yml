@@ -1,4 +1,4 @@
-- hosts: web server
+- hosts: windows server
   tasks:
     - name: Example from an Ansible Playbook
       win_ping:
