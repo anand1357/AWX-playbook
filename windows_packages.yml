@@ -9,3 +9,8 @@
       win_chocolatey:
         name: winscp
         state: present
+
+    - name: Install putty
+      win_chocolatey:
+        name: putty
+        state: present
