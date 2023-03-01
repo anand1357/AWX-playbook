@@ -1,4 +1,4 @@
-- hosts: all
+- hosts: test-window
   tasks:
     - name: Install notepadplusplus
       win_chocolatey:
