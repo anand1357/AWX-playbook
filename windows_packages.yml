@@ -10,7 +10,7 @@
         name: winscp
         state: present
 
-    - name: Install putty
+    - name: Install puttygen
       win_chocolatey:
         name: puttygen
         state: present
