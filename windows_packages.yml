@@ -12,5 +12,5 @@
 
     - name: Install putty
       win_chocolatey:
-        name: putty
+        name: puttygen
         state: present
