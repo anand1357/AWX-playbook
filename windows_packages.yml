@@ -1,0 +1,11 @@
+- hosts: windows
+  tasks:
+    - name: Install notepadplusplus
+      win_chocolatey:
+        name: notepadplusplus
+        state: present
+
+    - name: Install WINSCP
+      win_chocolatey:
+        name: winscp
+        state: present
