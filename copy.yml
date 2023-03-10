@@ -3,5 +3,5 @@
     - name: Copy a single file where the source is on the remote host
       win_copy:
         src: C:\Temp\foo.txt
-        dest: D:\Temp\foo.txt
+        dest: C:\Temp1\foo.txt
         remote_src: yes
