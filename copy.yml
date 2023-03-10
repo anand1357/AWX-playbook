@@ -1,0 +1,7 @@
+- hosts: all
+  tasks:
+    - name: Copy a single file where the source is on the remote host
+      win_copy:
+        src: C:\Temp\foo.txt
+        dest: D:\Temp\foo.txt
+        remote_src: yes
